@@ -182,6 +182,14 @@
     align-items: center;
     max-width: 322px;
     margin: 0 24px;
+    padding: 16px 24px;
+}
+
+.cards:hover
+{
+    transform: scale(1.05);
+    border: 2px solid #F95555;
+    border-radius: 5px;
 }
 
 .card-img-div
@@ -193,4 +201,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 16px;
 }
+
+.card-texts h3
+{
+    color: #001931;
+}
+
+.card-texts p
+{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
