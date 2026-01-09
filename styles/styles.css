@@ -81,7 +81,6 @@
 .hero-div
 {
     max-width: 1600px;
-    height: 908px;
     background-image: url("../assets/hero-bg.png");
     background-repeat: no-repeat;
     text-align: center;
@@ -145,4 +144,53 @@
 #i2
 {
     margin-right: 9px;
+}
+
+.page2
+{
+    text-align: center;
+    margin-top: 48px;
+}
+
+.page2-h1 h1
+{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.page2-h1 p, .cards p
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+
+.card-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1360px;
+    padding: 44px 120px;
+}
+
+.cards
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 322px;
+    margin: 0 24px;
+}
+
+.card-img-div
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: #F95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
