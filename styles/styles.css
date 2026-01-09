@@ -188,7 +188,7 @@
 .cards:hover
 {
     transform: scale(1.05);
-    border: 2px solid #F95555;
+    border: 1.5px solid #F95555;
     border-radius: 5px;
 }
 
@@ -215,3 +215,64 @@
     margin-bottom: 16px;
 }
 
+.page3
+{
+    padding: 120px;
+}
+
+.page3-div
+{
+    max-width: 1360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page3-text-div
+{
+    margin-left: 60px;
+}
+
+.page3-text-div h4
+{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+
+.page3-text-div h1
+{
+    font-size: 48px;
+    font-weight: 800;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.page3-text-div p
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.page3-text-div ul
+{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #001931;
+}
+
+.page3-text-div ul li
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.check-img
+{
+    margin-right: 6px;
+}
