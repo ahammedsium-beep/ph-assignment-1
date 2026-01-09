@@ -320,3 +320,55 @@
 {
     margin-left: 5px;
 }
+
+.page5
+{
+    background-color: #001931;
+    color: white;
+    padding: 120px 120px 30px;
+}
+
+.page5-div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.footer-text-div
+{
+    margin-right: 36px;
+}
+
+.footer-text-div h4
+{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.footer-text-div ul
+{
+    list-style: none;
+    display: flex;
+}
+
+.social-img
+{
+    margin-right: 16px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.page5-footer-div
+{
+    text-align: center;
+}
+
+.page5-footer-div
+{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #FAFAFA;
+}
