@@ -2,14 +2,11 @@
 {
     margin: 0;
     padding: 0;
+    font-family: "inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
-.font-inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-}
-
-.btn
+.btn, .btn2
 {
     height: 44px;
     padding: 12.5px 16px;
@@ -21,6 +18,23 @@
     border-radius: 5px;
     white-space: nowrap;
     line-height: 1;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background-color: white;
+    color: #469165;
+    transform: scale(1.05);
+    border: 2px solid #469165;
+}
+
+.btn2:hover
+{
+    background-color: #469165;
+    color: white;
+    transform: scale(1.05);
+    border: none;
 }
 
 .nav-container
@@ -70,4 +84,65 @@
     height: 908px;
     background-image: url("../assets/hero-bg.png");
     background-repeat: no-repeat;
+    text-align: center;
+    padding: 115.5px 120px 179.5px;
+}
+
+.hero-a button
+{
+    width: 229px;
+    height: 35px;
+    border: none;
+    border-radius: 35px;
+    text-align: center;
+    text-decoration: none;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.hero-div h1
+{
+    color: white;
+    font-size: 72px;
+    opacity: 90%;
+}
+
+.hero-div h1 span
+{
+    color: #469165;
+}
+
+.hero-div p
+{
+    color: white;
+    font-size: 18px;
+    margin: 16px auto 32px;
+}
+
+.btn2
+{
+    background-color: transparent;
+    border: 2px solid;
+}
+
+.hero-btn .btn
+{
+    margin-right: 8px;
+}
+
+.hero-btn .btn2
+{
+    margin-left: 8px;
+}
+
+.hero-btn .btn #i1
+{
+    margin-left: 9px;
+}
+
+#i2
+{
+    margin-right: 9px;
 }
